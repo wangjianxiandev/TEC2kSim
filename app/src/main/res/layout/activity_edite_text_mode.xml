@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_codeInput"
+        android:layout_width="fill_parent"
+        android:layout_height="342dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:layout_weight="3"
+        android:gravity="left|top"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="10dp"
+        android:layout_weight="1"
+        android:text="Result"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清空编辑窗" />
+
+        <Button
+            android:id="@+id/bt_run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="运行" />
+
+        <Button
+            android:id="@+id/bt_viewRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看寄存器" />
+    </LinearLayout>
+
+</LinearLayout>

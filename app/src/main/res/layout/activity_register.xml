@@ -1,0 +1,295 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R0:" />
+
+        <EditText android:textScaleX="0.8" 
+            android:id="@+id/et_r0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content"
+            android:layout_width="29dp"
+            android:text="R1:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R2:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content"
+            android:layout_width="29dp"
+            android:text="R3:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_height="wrap_content"
+            android:layout_width="29dp"
+            android:text="R4:" />
+
+        <EditText 
+            android:textScaleX="0.8"
+            android:id="@+id/et_r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:singleLine="true"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R5:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R6:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+           android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R7:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" />
+    </LinearLayout>
+    
+      
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+          android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R8:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+           android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R9:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView1"
+         android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R10:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+          android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R11:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" />
+    </LinearLayout>
+    
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+           android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R12:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView1"
+           android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R13:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView1"
+         android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R14:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+           android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:text="R15:" />
+
+        <EditText android:textScaleX="0.8"
+            android:id="@+id/et_r15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:ems="10" />
+    </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" 
+             android:gravity="center">
+
+             <Button
+                 android:id="@+id/bt_changeRegister"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="修改" />
+
+             <Button
+                 android:id="@+id/bt_return"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="返回" />
+
+         </LinearLayout>
+
+</LinearLayout>

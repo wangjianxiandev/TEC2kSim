@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_specificExample_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="在屏幕上输出显示字符‘6’"
+        android:textSize="18sp" />
+ <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff">
+    </View>
+    <TextView
+        android:id="@+id/tv_specificExample_example"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"
+        android:text="A 2000；地址从16进制的2000（内存RAM区的起始地址）开始
+2000: MVRD  R0，0036 ；把字符‘6’的ASCII码送入R0
+2002: OUT  80；在屏幕上输出显示字符‘6’，80为串行接口地址
+2003: RET；每个用户程序都必须用RET指令结束
+2004：（按回车键即结束源程序的输入过程）
+" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff">
+    </View>
+
+    <TextView
+        android:id="@+id/tv_specificExample_explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:text="这就建立了一个从主存2000h地址开始的小程序。在这种方式下，所有的数字都约定使用16进制数，故数字后不用跟字符h。每个用户程序的最后一个语句一定为RET汇编语句。因为监控程序是选用类似子程序调用方式使实验者的程序投入运行的，用户程序只有用RET语句结束，才能保证用户程序运行结束时能正确返回到监控程序的断点，保证监控程序能继续控制教学机的运行过程。" />
+
+</LinearLayout>

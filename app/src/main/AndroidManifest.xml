@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dlut.tec2ksim"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".CommandModeActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".LauncherActivity"
+            android:label="@string/app_name"
+            android:theme="@style/LaunchTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name=".DialogMoreInfoActivity"
+            android:label="@string/title_activity_dialog_more_info"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".ExampleActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SpecificExampleActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".EditeTextModeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@android:style/Theme.Dialog" 
+            android:label="@string/title_activity_register" >
+        </activity>
+    </application>
+
+</manifest>

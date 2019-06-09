@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_instruction"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:text="STRX DR,OFFSET[SR]" />
+
+
+        <TextView
+            android:id="@+id/tv_explanation"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:text="DR--DR帶進爲C循環右移" />
+
+</LinearLayout>

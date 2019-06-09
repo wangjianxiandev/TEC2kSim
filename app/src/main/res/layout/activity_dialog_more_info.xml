@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lt_more_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="指令格式：" />
+
+        <TextView
+            android:id="@+id/tv_format"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00000110 DRSR" />
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="汇编语句：" />
+
+        <TextView
+            android:id="@+id/tv_search_instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR  DR,SR" />
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="操作数个数：" />
+
+        <TextView
+            android:id="@+id/tv_search_operate_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="CZVS标志位" />
+
+        <TextView
+            android:id="@+id/tv_search_CZVS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="****" />
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="指令类型：" />
+
+        <TextView
+            android:id="@+id/tv_search_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A组指令" />
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="功能说明" />
+
+        <TextView
+            android:id="@+id/tv_search_explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DR--DR or SR" />
+
+    </LinearLayout>
+
+</LinearLayout>

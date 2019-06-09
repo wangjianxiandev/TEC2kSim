@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DUT_TEC-XP仿真系统</string>
+    <string name="info">命令行模式下包含有一下7种命令：（点击查看例子）</string>
+    <string name="title_activity_dialog_more_info">指令详细信息</string>
+    <string name="title_activity_register">寄存器信息</string>
+
+</resources>
